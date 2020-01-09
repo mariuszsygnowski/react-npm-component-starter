@@ -1,3 +1,19 @@
+# Addons to original github repo:
+
+All functions from original repo is preserved and I added:
+
+1. Now you can install from github repo library (still you can post to the npmjs.com):
+    
+    npm install git+https://github.com/mariuszsygnowski/react-npm-component-starter.git
+    And then use in React project:
+
+    import MyDefaultComponent, { MyNamedComponent } from 'constructor-labs';
+
+2. Updated dependencies.
+
+> # <strong>Anything below is coming from original readme from repo: https://github.com/markusenglund/react-npm-component-starter
+</strong>
+
 # Deprecation notice
 
 I no longer maintain this boilerplate and I recommend you use [this one](https://github.com/transitive-bullshit/react-modern-library-boilerplate) instead. It uses Rollup to bundle the library which is better for a variety of reasons as compared to using only babel as was done here. Good luck!
