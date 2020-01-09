@@ -17,7 +17,7 @@ export const MyNamedComponent = props => {
   const children = props.children ? <span>{props.children}</span> : false;
   return (
     <div>
-      <h1>Hello World!</h1>
+      <h1>Thank you Constructor Labs!</h1>
       {children}
     </div>
   );
